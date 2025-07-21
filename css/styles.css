@@ -61,7 +61,7 @@ font-style: normal;
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .start {
@@ -71,7 +71,7 @@ font-style: normal;
 .start-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -85,7 +85,14 @@ font-style: normal;
             line-height: 1.5;
             letter-spacing: 0.04em;
             color: #fff;
+        cursor: pointer;
 }
+
+.start-button:hover,
+.start-button:focus {
+    background-color: #404BBF
+}
+
 
 .mini-title {
     font-weight: 500;
@@ -114,6 +121,7 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .team-background {
@@ -142,10 +150,11 @@ font-style: normal;
 .portfolio-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .portfolio-name{
